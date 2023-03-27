@@ -28,10 +28,10 @@ Almost done, I promise. Find the DHCP Port Binding setting and map your Pi's MAC
 This is where all those things we noted down are going to be useful. Add your router's broadcast address too (if you don't know what it is, then it is propably your router's IP but ending in .255 . You can always ask your ISP / Google for the answer) with your WiFi's name in SSID and Password accordingly.
 
 ### secrets.py example 
-SSID = 'My WiFi'
-PASSWORD = 'SuperStrongPassword'
-MAC = [0x01, 0x02, 0x03] if your MAC address is 01:02:03
-BOT_TOKEN = '45d6f4sd58f4d5s645d5sf89:4d5f8e45df45'
-CHAT_ID = '56421154651'
-BROADCAST = '192.168.1.255'
-PORT = 25566
+SSID = 'My WiFi'  
+PASSWORD = 'SuperStrongPassword'  
+MAC = [0x01, 0x02, 0x03] if your MAC address is 01:02:03  
+BOT_TOKEN = '45d6f4sd58f4d5s645d5sf89:4d5f8e45df45'  
+CHAT_ID = '56421154651'  
+BROADCAST = '192.168.1.255'  
+PORT = 25566  
