@@ -34,7 +34,7 @@ Whem you want to wake your PC, just go to that conversation and type "Wake". You
 ### secrets.py example 
 SSID = 'My WiFi'  
 PASSWORD = 'SuperStrongPassword'  
-MAC = [0x01, 0x02, 0x03] if your MAC Address is 01:02:03  
+MAC = [0x01, 0x02, 0x03] if your MAC Address is 01:02:03, the format is 0x plus whatever is between the ```:``` character
 BOT_TOKEN = '45d6f4sd58f4d5s645d5sf89:4d5f8e45df45'  
 CHAT_ID = '56421154651'  
 BROADCAST = '192.168.1.255'  
