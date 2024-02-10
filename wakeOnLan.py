@@ -4,9 +4,6 @@ import secrets
 
 broadcast = usocket.socket(usocket.AF_INET, usocket.SOCK_DGRAM)
 sendhere = (secrets.BROADCAST, 9)
-
-#Packet data, (6 times hex value "ff" followed by 16 times mac address as hex
-# e.g. 00:01:02 would be 0x00, 0x01, 0x02)
 data = bytearray(102)
 data[0] = data[1] = data[2] = data[3] = data[4] = data[5] = 0xff
 data[6] = data[12] = data[18] = data[24] = data[30] = data[36] = data[42] = data[48] = data[54] = data[60] = data[66] = data[72] = data[78] = data[84] = data[90] = data[96] = secrets.MAC[0]
@@ -17,6 +14,5 @@ data[10] = data[16] = data[22] = data[28] = data[34] = data[40] = data[46] = dat
 data[11] = data[17] = data[23] = data[29] = data[35] = data[41] = data[47] = data[53] = data[59] = data[65] = data[71] = data[77] = data[83] = data[89] = data[95] = data[101] = secrets.MAC[5]
 
 def wakePC():
-    #Sends magic packet to breadcast address
-    broadcast.sendto(data, sendhere)
+    broadcast.sendto(data,sendhere)
     print('Magic Packet Sent')
