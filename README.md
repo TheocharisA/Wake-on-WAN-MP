@@ -29,7 +29,7 @@ This is where all those things we noted down are going to be useful. Add your ro
 
 ### Using the bot
 After flashing the files in your pico, and running the bot, you will recieve a Telegram message from the bot saying "Bot alive! What to do?".  
-Whem you want to wake your PC, just go to that conversation and type "Wake". Your computer should start almost instantly 
+Whem you want to wake your PC, just go to that conversation and type "Wake". Your computer should start when you get a reply (I have a 20s interval set between the Pico W's get requests to not spam the telegram server and get blocked from accessing it) 
   
 ### secrets.py example 
 SSID = 'My WiFi'  
