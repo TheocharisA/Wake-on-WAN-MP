@@ -5,7 +5,7 @@ Wake on WAN with Micropython (Made for Raspberry Pi Pico W)
 
 This is a small project to wake your computer from anywhere in the world just by sending in a Telegram message. You can then use TeamViewer, Anydesk or anything you like to control it remotely.
 
-## THIS ONLY WORKS ON ETHERNET AND ONLY IF YOUR MOTHERBOARD SUPPORTS WAKE ON LAN
+## THIS ONLY WORKS ON ETHERNET AND ONLY IF YOUR MOTHERBOARD SUPPORTS WAKE ON LAN AND HAS IT CONFIGURED PROPERLY
 
 ## How to use
 
