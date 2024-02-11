@@ -15,7 +15,7 @@ def wifiStart():
 
 #Binds pico to desired port
 def socketStart():
-    addr = socket.getaddrinfo('192.168.2.250', secrets.PORT)[0][-1]
+    addr = socket.getaddrinfo('0.0.0.0', secrets.PORT)[0][-1]
     s = socket.socket()
     s.bind(addr)
     s.listen(1)
