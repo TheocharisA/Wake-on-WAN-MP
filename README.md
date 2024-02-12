@@ -13,7 +13,7 @@ This is a small project to wake your computer from anywhere in the world just by
 Create a [Telegram](https://telegram.org/) account.
 
 ### Step 1 - Creating Bot and finding out your chat id / bot token
-Once you are all set-up with your Telegram account, go to Telegram search bar and type BotFather. Follow the instructions and create your bot. (Note your Bot Token, we will be needing that later). Click on the link to access your bot chat (you will be sending messages here to wake your computer). Go to the [web version of Telegram](web.telegram.org) and enter your chat with the bot. At the end of the URL you will find something like this ?chat_id=<Special Number Here>, save that too.
+Once you are all set-up with your Telegram account, go to Telegram search bar and type BotFather. Follow the instructions and create your bot. (Note your Bot Token, we will be needing that later). Click on the link to access your bot chat (you will be sending messages here to wake your computer). Go to the [web version of Telegram](https://web.telegram.org) and enter your chat with the bot. At the end of the URL you will find something like this ?chat_id=<Special Number Here>, save that too.
 
 ### Step 2 - Find out your MAC Address
 Open CMD and type ```ipconfig /all```. There you will see all your internet adapters' info, MAC Address included, note that down too.
