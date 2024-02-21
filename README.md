@@ -27,6 +27,9 @@ Almost done, I promise. Find the DHCP Port Binding setting and map your Pi's MAC
 ### Step 4 - Fill in secrets.py
 This is where all those things we noted down are going to be useful. Add your router's broadcast address too (if you don't know what it is, then it is propably your router's IP but ending in .255 . You can always ask your ISP / Google for the answer) with your WiFi's name in SSID and Password accordingly.
 
+### Step 5 - Flash the files
+Now all you need is to flash the files to your raspberry pi pico. I used Thonny and PyCharm but you can use any program you want.
+
 ### Using the bot
 After flashing the files in your pico, and running the bot, you will recieve a Telegram message from the bot saying "Bot alive! What to do?".  
 Whem you want to wake your PC, just go to that conversation and type "Wake". Your computer should start when you get a reply (I have a 20s interval set between the Pico W's get requests to not spam the telegram server and get blocked from accessing it) 
